@@ -20,4 +20,4 @@ artifacts:
   files:
     - tpn-commission-processor.zip
   discard-paths: yes
-  base-directory: location
+  #base-directory: 
