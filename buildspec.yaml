@@ -1,0 +1,23 @@
+version: 0.2
+
+           
+phases:
+  install:
+    commands:
+      - npm i
+  #pre_build:
+    #commands:
+      #- command
+      #- command
+  #build:
+    #commands:
+      #- command
+      #- command
+  post_build:
+    commands:
+      - zip -r tpn-commission-processor.zip .
+artifacts:
+  files:
+    - tpn-commission-processor.zip
+  discard-paths: yes
+  base-directory: location
